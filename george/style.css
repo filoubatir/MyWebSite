@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.head {
+    
+    padding: 0;
+    margin: 0;
+    color: goldenrod;
+}
+.head h1{
+    display: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+   
+    background-image: url(images/jk.JPG);
+    height: 100%;
+    background-size: cover;
+    
+   
+}
+.header{
+    position: fixed;
+    padding-top: 25px;
+    width: 100%;
+    padding: 5px;
+    height: 85px;
+    background-color:rgb(46, 123, 151);
+}
+.header a{
+    text-align: center;
+    padding: 20px 20px ;
+}
+.header a:hover{
+   
+    color: black;
+}
+#home{
+    margin:12px;
+}
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    color: goldenrod;
+  }
+  .content h1{
+      text-align: center;
+      text-decoration: underline;
+      color:gold;
+
+  }
+  .content p{
+      text-align: center;
+  }
+  .box{
+      
+   display: flex;
+    justify-content: center;
+  }
+  .image{
+      width: 250px;
+      height: 200px;
+      padding-right: 30px;
+      padding-top: 40px;
+      opacity: 0.7;
+  }
+  .image:hover {
+    opacity: .9;
+  }
+  
+  .names{
+      text-align: center;
+      padding-right: 10%;
+
+  }
+  .descrection{
+      text-align: center;
+      padding-right: 10%;
+    
+  }
+  .box2{
+    background-image:url(images/kl.JPG);
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+    margin:0%; 
+   
+    
+ }
+ .numbers{
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 120px;
+    padding-right: 80px;
+    
+    
+ }
+ .numbers h3{
+     color: rgb(250, 168, 81);
+     font-size: 30px;
+ }
+ 
+ .numbers p{
+     color: rgb(243, 237, 210);
+     font-size: 17px;
+
+ }
+  p{
+     
+    text-align: center;
+
+ }
+ h2{
+    widows: 100%;
+   text-align: center;
+
+}
+
+
+ form{
+     width: 100%;
+    margin: 0%;
+    padding: 0%;
+     background-color: rgb(46, 123, 151);
+     background: rgb(46, 123, 151);
+
+ }
+ input {
+     margin-left: 10%;
+     border: none;  
+     height: 40px;
+     width: 40%;
+     border-bottom: ridge;
+     background-color: rgb(46, 123, 151);
+     
+ }
+ select{
+     border: none;
+     margin: 10px;
+     height: 40px;
+     width: 40%;
+     background-color: rgb(46, 123, 151);
+     border-bottom: ridge;
+     color: white;  
+     
+ }
+ input[type=email]{
+     width: 80%;
+     height: 80px;
+     border: none;
+     border-bottom: ridge;
+
+ }
+ textarea{
+     margin-left: 10%;
+     width: 100%;
+     border:none;
+     border-bottom: ridge;
+ }
+ div.contactus{
+    color: whitesmoke;
+     background-color:rgb(46, 123, 151); 
+     margin: 0%;
+    
+ }
+ textarea{
+     width: 50%;
+     background-color: rgb(46, 123, 151);
+
+ }
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: whitesmoke;;
+    opacity: 1; /* Firefox */
+  }
+ button{
+   
+    position: relative;
+    border:none;
+    height: 30px;
+    margin-left: 83%;
+    margin-top: 5%;
+    font-size: 18px;
+   background-color: rgba(158, 16, 16, 0.651);
+ }
+ .aboutus{
+     width: 100%;
+     margin: 0%;
+     
+     padding: 0%;
+    
+   
+ }
+ .ab{
+     margin: 0%;
+     padding: 0%;
+     width: 50%;
+     height: 70%;
+    display: block;
+     float: left;
+ }
+ 
+ 
+ .box3{
+    width: 100%;
+    background-color:rgb(46, 123, 151);
+    background-size: cover;
+    display: inline-block;
+    margin:0%; 
+ }
+ .numbers3{
+     float: left;
+     size: 18%;
+     padding: 5%;
+     margin: 0%;
+ }
+ .numbers3 h3{
+    color: red(250, 168, 81);
+    font-size: 20px;
+    color: whitesmoke;
+    
+     
+ }
+ .numbers3 p{
+    color: rgb(243, 237, 210);
+    font-size: 17px;
+    color: whitesmoke;
+    
+
+}
+#contact{
+    background-color: rgb(46, 123, 151);
+    margin: 0%;
+}
+.numbers3 img{
+    padding: 15px;
+}
+.footer{
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    margin: 0%;
+}
+.copyrights{
+    float: left;
+    color: white;
+    size: 40%;
+}
+.icons{
+    padding: 1%;
+    size:40%;
+    float: right;
+}
+
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+    box-sizing: border-box;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+ 
+ 
+
+  
